@@ -50,8 +50,6 @@ function Guard(direction, x, y) {
     fill(255);
     noStroke();
     ellipse(this.x, this.y, 30, 30);
-    fill(255, 0, 0);
-    ellipse(this.x - (this.dist / 2), this.y + this.detectionWidth, 20, 20);
   }
 
   this.move = function() {
